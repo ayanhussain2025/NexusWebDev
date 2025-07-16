@@ -1,0 +1,65 @@
+*{
+    margin : 0;
+}
+body{
+    background-color: rgb(249, 242, 242);
+}
+.badacontainer{
+    margin-left : 12vw;
+}
+.container{
+    display : inline-block;
+    border : 15px solid rgb(249,242,242);
+    border-radius: 8px;
+    margin-right : 10px;
+    margin-bottom: 25px;
+}
+
+.container:hover{
+    display : inline-block;
+    border : 15px solid white;
+    background-color: white;
+}
+.img{
+    height : 230px;
+    width : auto;
+    border-radius: 15px;
+    border-radius: 5px;
+}
+.box{
+    display: inline-block;
+    margin-top : 8px;
+}
+.resturant-info,.menu-price,.location-distance{
+    position: relative;
+}
+.rating{
+    position: absolute;
+    right :5px;
+    background-color: green;
+    padding-left : 3px;
+    padding-right : 3px;
+    padding-top : 0;
+    padding-bottom: 0px;
+    border-radius: 4px;
+    color : white;
+}
+.resturant-name{
+    font-size: 18px;
+    font-weight :500;
+}
+.menu-price{
+    color : grey;
+}
+.location{
+    color : grey;
+}
+.distance{
+    position: absolute;
+    right : 5px;
+    font-size: 13px;
+}
+.price{
+    position: absolute;
+    right : 5px;
+}

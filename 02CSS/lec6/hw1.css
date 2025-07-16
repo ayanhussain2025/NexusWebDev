@@ -1,0 +1,14 @@
+/* this is the home work given by rohit negi : use fixed property on nav bar of lec 9 html project
+ */
+
+header{
+    position: fixed;
+    top : 0;
+    left :0;
+    right : 0;
+    background-color: cadetblue;
+}
+
+main{
+    padding-top : 180px;
+}

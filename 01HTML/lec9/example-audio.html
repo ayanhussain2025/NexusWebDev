@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HTML-Media -->
+    <!-- 1. How to insert and img in audio in html file -->
+    <!-- 2. How we can insert audio in html file -->
+    <h2>First method</h2>
+    <!-- First method to insert audio -->
+    <audio src="./check.mp3" controls></audio>
+    <br><br>
+    <h2>Second method</h2>
+    <!-- second method to insert audio , better than first method provide extra things , please see notes -->
+     <audio controls>
+        <source src="./Jaadugar.mp3">
+        <!-- this second src will play if first get corrupted somehow and you can give as much as alternate source you want -->
+        <source src="./check.mp3">
+         <!-- if all src get corrupted , you can display some statment on screen for the user  -->
+          song are not loaded.
+     </audio>
+     <br><br>
+    <!-- 3. How to insert videos in html -->
+      <!-- first method -->
+      <video src="./hawa.MP4" height="500" width="250" controls type="video/MP4"></video>
+      <br><br>
+      <!-- second mehtod -->
+      <video  height="500" width="250" controls autoplay muted>
+        <!-- autoplay muted is to play automatically the video when brower load this page but video must be muted otherwise this will not work -->
+        <source src="./hawa.MP4" type="video/MP4">
+        video is not loaded
+      </video> 
+      <br><br>
+      <!-- for audio video file must be in local storage -->
+     <!-- How to attached youtube videos -->
+
+     <!-- method-1 -->
+      <iframe src="https://www.youtube.com/embed/sNiiJ16dLz0" frameborder="0" allowfullscreen></iframe>
+      <br><br>
+      <!-- you can also use iframe to embed other website in your website , but we cannot do this for every website -->
+      <iframe src="../lec8/example1.html" width="100%" height="600"></iframe>
+
+
+</body>
+</html>

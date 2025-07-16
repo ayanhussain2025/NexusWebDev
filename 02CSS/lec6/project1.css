@@ -1,0 +1,16 @@
+/* *{
+    margin : 0;
+} */
+header{
+    background-color: aqua;
+    position : fixed;
+    /* width : 100%; */
+
+    /* we can also usw top , left and right rather giving margin 0 and width 100% */
+    top : 0;
+    left : 0;
+    right : 0;
+}
+main{
+    padding-top:70px;
+}

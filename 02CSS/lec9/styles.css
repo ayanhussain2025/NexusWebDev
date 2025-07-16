@@ -1,0 +1,120 @@
+*{
+    margin : 0;
+}
+body{
+    background-color: rgb(249, 242, 242);
+}
+.badacontainer{
+    margin-left : 12vw;
+}
+.container{
+    display : inline-block;
+    border : 15px solid rgb(249,242,242);
+    border-radius: 8px;
+    margin-right : 10px;
+    margin-bottom: 25px;
+}
+
+.container:hover{
+    display : inline-block;
+    border : 15px solid white;
+    background-color: white;
+}
+.img{
+    height : 230px;
+    width : auto;
+    border-radius: 15px;
+    border-radius: 5px;
+}
+.box{
+    display: inline-block;
+    margin-top : 8px;
+}
+.resturant-info,.menu-price,.location-distance{
+    position: relative;
+}
+.rating{
+    position: absolute;
+    right :5px;
+    background-color: green;
+    padding-left : 3px;
+    padding-right : 3px;
+    padding-top : 0;
+    padding-bottom: 0px;
+    border-radius: 4px;
+    color : white;
+}
+.resturant-name{
+    font-size: 18px;
+    font-weight :500;
+}
+.menu-price{
+    color : grey;
+}
+.location{
+    color : grey;
+}
+.distance{
+    position: absolute;
+    right : 5px;
+    font-size: 13px;
+}
+.price{
+    position: absolute;
+    right : 5px;
+}
+header{
+    background-color: white;
+}
+
+.navbox{
+    display: inline-block;
+}
+.zomato{
+    font-size : 35px;
+    font-weight: 1000;
+    padding-left : 15vw;
+}
+.search{
+    height : 50px;
+    width : 325px;
+    border : 0px;
+}
+.navbox > img{
+    height: 20px;
+    width : auto;
+}
+.search-img{
+    margin-left : 20vw;
+    margin-right : 180px;
+}
+.button{
+    border: 0px;
+    background-color: white;
+    color : grey;
+    font-size: 20px;
+}
+.navbox1{
+    display: inline-block;
+    font-size: 30px;
+    margin-left : 20px;
+    color: grey;
+}
+.second-container
+{
+    padding-left: 15vw;
+    margin-top : 20px;
+}
+.text1{
+    color : red;
+}
+.nav-img{
+    height : 40px;
+    width : auto;
+    background-color: grey;
+    border-radius: 50%;
+    padding : 10px;
+}
+.n1{
+    display: inline-block;
+}

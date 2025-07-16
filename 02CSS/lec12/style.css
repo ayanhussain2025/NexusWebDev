@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-img{
+    height : 3.5rem;
+}
+.header1{
+    display: flex;
+    margin-left : 8vw;
+    margin-right : 8vw;
+    justify-content: space-between;
+    margin-top: 0.4rem;
+}
+.header1-a
+{
+    display: flex;
+
+}
+.header1-a > input{
+    width : 30vw;
+    height : 2rem;
+    margin-top : 10px;
+    border :  1px solid rgb(235, 229, 229);
+    border-radius : 4px;
+}
+/* ::placeholder i use to adjust the placeholder */
+.header1-a > input::placeholder{  
+    color : rgb(164, 160, 160);
+    font-weight: 400;
+}
+.header1-b
+{
+    display: flex;
+    gap : 1rem;
+    margin-left : 0.5rem;
+    margin-top : 0.7rem;
+}
+.header1-b>button
+{
+    height :2rem;
+    width : 4rem;
+    border : none;
+    background-color: red;
+    color : white;
+    border-radius: 5px;
+    cursor : pointer;
+}
+.header1-b>select{
+    height :2rem;
+    width:4rem;
+    cursor : pointer;
+    border : none;
+}
+.header1-b>svg{
+    padding-top: 0.2rem;
+}
+
+.header2{
+    display : flex;
+    padding : 1rem 7vw 1rem 9vw;
+    justify-content: space-between;
+    background-color: rgb(244, 242, 242);
+    flex-wrap: wrap;
+    max-width: 100vw;
+}
+.header2-a , .header2-b{
+    display: flex;
+    gap : 1rem;
+}
+
+.header2-a >a{
+    color : black;
+    text-decoration: none;
+}
+
+.header2-b >a{
+    color : rgb(79, 79, 79);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.hero{
+    display: flex;
+    background-color: #e0e0e0;
+    padding-top : 0.8rem;
+    padding-bottom : 0.8rem;
+    justify-content: center;
+}
+.hero>img{
+    border-radius: 0.5rem;
+    max-width: 80%;
+}
+
+/* movie section */
+.movie{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top : 2.7rem;
+}
+.movie-1{
+    display: flex;
+    justify-content: space-between;
+}
+.movie-1>p{
+    color : red;
+}
+.movie-2{
+    display: flex;
+    margin-top : 1rem;
+    gap : 2rem;
+    overflow-x: scroll;
+}
+.card{
+    width : 14rem;
+}
+.card>img{
+    height: 24rem;
+    border-radius: 0.5rem;
+}
+.movie-name{
+    font-weight: bold;
+}
+.movie-genre
+{
+    color : grey;
+}
+/* mobile responsive css code for device till 500px */
+.hero3{
+    text-align: center;
+    margin-top : 2rem;
+}
+.hero3> img
+{
+    max-width: 80%;
+}
+
+.card-genre
+{
+    display : flex;
+    gap : 3rem;
+}
+.genre{
+    margin-left : 10vw;
+    margin-top : 10vh;
+}
+.genre>h2{
+    margin-left: 0.5rem;
+    margin-bottom : 1rem;
+}
+.card-genre1>img,.card-genre2>img,.card-genre3>img,.card-genre4>img
+{
+    height : 15rem;
+    border-radius: 2rem;
+}
+ 
+    .bluebox
+    {
+        background-color: rgb(43, 49, 72);
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+    .bluebox-inside
+    {
+        width : 80vw;
+        color : white;
+    }
+    .Premiere1 > img
+    {
+        width: 80vw;
+    }
+    .premiere2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .seeall{
+        color : red;
+    }
+    .premiere-card{
+        display: flex;
+        margin-top : 0.5rem;
+        overflow-x :scroll;
+    }
+    .card-type1{
+        margin-right : 2rem;
+    }
+    .card-type1>img
+    {
+        height: 22rem;
+        width: auto;
+        border-radius: 0.5rem;
+    }
+
+    .movie-name-type1{
+        font-size: 1.2rem;
+        margin-bottom: 0.7rem;
+    }
+    .movie-genre-type1{
+        margin-bottom: 2rem;
+    }
+
+
+@media (max-width: 500px) {
+    .header1 {
+        margin: 0px;
+    }
+
+    .header2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header2-a {
+        margin-bottom: 2rem;
+    }
+
+    .movie-1,
+    .movie-2 {
+        flex-direction: column;
+    }
+
+    .movie {
+        margin-left: 25vw;
+    }
+
+
+    /* ✅ This is the actual fix : i fix overflow scroll bar here*/
+    .movie-2 {
+        overflow-x: hidden;
+    }
+    .card-genre
+    {
+    display : flex;
+    flex-direction: column;
+    gap : 3rem;
+    align-items: center;
+    }
+    .genre{
+    margin-left : 0;
+    margin-top : 10vh;
+    }
+    .genre>h2{
+    margin-left: 0;
+    margin-bottom : 1rem;
+    text-align: center;
+    }
+
+}

@@ -1,0 +1,47 @@
+<table border="1">
+    <thead>
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+        <!-- Here HOurs will not rowspan="6" will not work bcz there is no 6 row present in head tag after 1st row , so we need to put the second row at body tag to expand it and convert th-> td -->
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="6">Hours</td>
+            <td>Mon</td>
+            <td>Tue</td>
+            <td>Wed</td>
+            <td>Thu</td>
+            <td>Fri</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Arts</td>
+        </tr>
+        <!-- for centering the lunch we will use CSS -->
+        <tr>
+            <td colspan="5">LUNCH</td> 
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td colspan="2" rowspan="2">Project</td> 
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+        </tr>
+    </tbody>
+</table>

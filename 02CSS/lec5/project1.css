@@ -1,0 +1,30 @@
+*{
+    margin : 0;
+}
+
+.first,.third
+{
+    background-color: red;
+    width: 35vw;
+    height: 45vh;
+}
+.second ,.fourth
+{
+    background-color: red;
+    width: 50vw;
+    height: 45vh;
+}
+.first , .second{
+    display: inline-block;
+}
+.third , .fourth{
+    display: inline-block;
+}
+
+.second , .fourth
+{
+    margin-left : 14vw;
+}
+.first , .second{
+    margin-bottom: 10vh;;
+}
