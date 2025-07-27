@@ -20,3 +20,16 @@ for(let i=1;i<=5;i++)
     }
     console.log("\n");
 }
+
+let a=1;
+while(a<=10)
+{
+    console.log(a);
+    a++;
+}
+
+let b=1;
+do{
+    console.log(b);
+    b++;
+}while(b<=0); //it run loop one time even if the condition is false
