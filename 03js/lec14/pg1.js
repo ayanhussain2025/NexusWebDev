@@ -30,3 +30,14 @@ for(let keys in obj2)
 //configurable : if true : means you can change the value of writable and enumerable , if false : you can't change the value
 
 console.log(obj,obj2);
+
+//how the the value of the properties :
+
+console.log(Object.getOwnPropertyDescriptor(obj,'name')); //default property
+
+Object.defineProperty(obj,'name',{
+    writable : false
+});
+
+obj.name="Abhishek"; // name will not change bcz writable : false
+console.log(obj.name);
