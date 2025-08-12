@@ -1,0 +1,23 @@
+.badacontainer{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+.container{
+    width:fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.2rem solid blue;
+    padding : 0 15rem;
+    border-radius: 1rem;
+    background-color:bisque;
+}
+#quote{
+    border : 0.3rem solid green;
+    padding : 1rem 8rem;
+    margin-bottom: 2rem;
+    background-color: aliceblue;
+}
