@@ -1,0 +1,50 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height : 100vh;
+    align-items: center;
+    justify-content: center;
+}
+#red{
+    padding : 2rem 4rem;
+    margin-right : 1rem;
+    background-color: red;
+    border : 0.2rem solid black;
+    cursor: pointer;
+}
+
+#blue{
+    padding : 2rem 4rem;
+    margin-right : 1rem;
+    background-color: blue;
+    border : 0.2rem solid black;
+    cursor: pointer;
+}
+
+#green{
+    padding : 2rem 4rem;
+    margin-right : 1rem;
+    background-color: green;
+    border : 0.2rem solid black;
+    cursor: pointer;
+}
+
+#yellow{
+    padding : 2rem 4rem;
+    margin-right : 1rem;
+    background-color: yellow;
+    border : 0.2rem solid black;
+    cursor: pointer;
+}
+
+#pink{
+    padding : 2rem 4rem;
+    margin-right : 1rem;
+    background-color: pink;
+    border : 0.2rem solid black;
+    cursor: pointer;
+}
