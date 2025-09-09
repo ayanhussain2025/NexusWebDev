@@ -3,7 +3,7 @@ function fetchuser(callback){
     console.log("Fetching the user Detail.....");
     setTimeout(()=>{
         console.log("Data Fetched Successfully");
-        const name="Ayan";
+        const name="Ayan"; //ya pe variable aya hai backend se but yha pe ek object bhi aasakta hai
         callback(name);
     },3000);
 }
