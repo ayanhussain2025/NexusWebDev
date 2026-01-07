@@ -1,0 +1,31 @@
+/* CSS SELECTORS */
+/* 1. Element Selector */
+h1{
+    background-color: antiquewhite;
+}
+/* 2. Class Selector */
+.first{
+    background-color: aquamarine;
+}
+
+/* 3. Id Selector */
+#second{
+    background-color: blue;
+}
+
+/* 4a. To Select all the element of the webpage */
+body{
+    background-color: black;
+}
+
+/* 4b. or Universal Selector */
+*{
+    /* background-color: green; */ 
+    /* don't use universal or (*) selector for background or styling random things see the readme.md or google it why */
+    color : red;
+}
+
+/* Note : there is difference between above two : see readme.md file */
+
+
+

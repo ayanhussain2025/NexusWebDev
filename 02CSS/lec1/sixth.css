@@ -1,0 +1,30 @@
+/* 5. Grouping Selector */
+h1 , h2 , .first , #second{
+    background-color: aqua;
+}
+
+/* 6. Select by property or attributes */
+h3[draggable="true"]{
+    background-color: blue;
+}
+
+h3[contenteditable = "true"]{
+    background-color: blueviolet;
+}
+
+/* 7. Select by decendent or Descendant Selector*/ 
+  /* Selects all matching elements inside a parent */
+  /* Works at any nesting level */
+  /* Uses space between selectors */
+  /* Example: div p */
+section pre{
+    background-color: burlywood;
+}
+/* 8. Select by children */
+  /* Selects only direct child elements */
+  /* Does not select nested elements */
+  /* Uses > symbol between selectors */
+  /* Example: div > p */
+  section > p{
+    background-color: brown;
+  }
